@@ -1,3 +1,5 @@
+import ChangeState from "./components/ChangeState";
+import CheckBox from "./components/CheckBox";
 import Counter from "./components/Counter";
 import ListUser from "./components/ListUser";
 import Product from "./components/Product";
@@ -12,6 +14,8 @@ export default function App() {
       <Product></Product>
       <Counter></Counter>
       <RandomNumber></RandomNumber>
+      <ChangeState></ChangeState>
+      <CheckBox></CheckBox>
     </>
   );
 }
