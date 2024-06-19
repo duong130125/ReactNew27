@@ -6,6 +6,8 @@ import reducerCounter from "../reducers/counterReducer";
 import reducerRandomNumber from "../reducers/randomReducer";
 import reducerChange from "../reducers/changeReducer";
 import reducerCheckBox from "../reducers/checkboxReducer";
+import reducerRegister from "../reducers/registerReducer";
+import reducerLogin from "../reducers/loginReducer";
 
 const rootReducer = combineReducers({
     reducerProfile,
@@ -14,7 +16,9 @@ const rootReducer = combineReducers({
     reducerCounter,
     reducerRandomNumber,
     reducerChange,
-    reducerCheckBox
+    reducerCheckBox,
+    reducerRegister,
+    reducerLogin
 })
 
 const store = createStore(rootReducer)
